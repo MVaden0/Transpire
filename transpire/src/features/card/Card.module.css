@@ -1,0 +1,16 @@
+.card {
+    background-color: var(--transpire-dark-blue);
+    border-radius: var(--transpire-border-radius);
+    width: 700px;
+    height: 550px;
+}
+
+.cardTitle {
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    background-color: var(--transpire-blue);
+    border-top-right-radius: var(--transpire-border-radius);
+    border-top-left-radius: var(--transpire-border-radius);
+    width: calc(100% - 2rem);
+}

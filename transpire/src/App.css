@@ -1,3 +1,10 @@
+:root {
+  --transpire-dark-blue: #1e263e;
+  --transpire-blue: #273251;
+  --transpire-border-radius: .5rem;
+}
+
 .App {
   text-align: center;
+  padding: 2rem;
 }
