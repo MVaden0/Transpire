@@ -7,6 +7,9 @@ export function Card() {
     <div className={styles.card}>
         <div className={styles.cardTitle}>
             Title
+            <div className={styles.cardSubtitle}>
+              this is a subtitle
+            </div>
         </div>
     </div>
   );

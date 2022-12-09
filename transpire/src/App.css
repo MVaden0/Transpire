@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
 :root {
-  --transpire-dark-blue: #1e263e;
-  --transpire-blue: #273251;
-  --transpire-border-radius: .5rem;
+  --transpire-dark-gray: #22212f;
+  --transpire-white: #fffff4;
+  --transpire-blue-gray: #707A95;
+  --transpire-border-radius: .75rem;
+}
+
+body {
+  background-color: #141417;
 }
 
 .App {
