@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 import { Card } from './features/card/Card';
 import { Table } from './features/table/Table';
+import { Widget } from './features/widget/Widget';
 
 function App() {
   return (
     <div className="App">
-      <Table title='This is a table' subtitle='and it has a subtitle'>
+      <Widget title='Views'>
 
-      </Table>
+      </Widget>
     </div>
   );
 }

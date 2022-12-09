@@ -1,8 +1,7 @@
 .card {
     background-color: var(--transpire-dark-gray);
     border-radius: var(--transpire-border-radius);
-    width: 700px;
-    height: 550px;
+    width: 350px;
 }
 
 .cardTitle {
@@ -10,12 +9,12 @@
     font-family: 'Rubik';
     color: var(--transpire-white);
     text-align: left;
-    padding: 1rem 2rem;
-    width: calc(100% - 4rem);
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    width: calc(100% - 3rem);
 }
 
 .cardContent {
-    width: calc(100% - 4rem);
-    height: calc(100% - 2rem);
-    padding: 0 2rem 2rem 2rem;
+    width: calc(100% - 3rem);
+    height: calc(100% - 1.5rem);
+    padding: 0 1.5rem 1.5rem 1.5rem;
 }

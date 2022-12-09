@@ -1,0 +1,23 @@
+.widgetTitle {
+    font-family: 'Rubik';
+    font-size: 2rem;
+    color: var(--transpire-white);
+    text-align: left;
+}
+
+.widgetSubtitle {
+    margin-left: 1.25rem;
+    font-family: 'Rubik';
+    font-size: 1.25rem;
+    color: var(--transpire-white);
+    text-align: left;
+}
+
+.widgetDescription {
+    margin-top: .5rem;
+    font-family: 'Rubik';
+    font-size: .875rem;
+    color: var(--transpire-white);
+    text-align: left;
+    color: var(--transpire-blue-gray);
+}
