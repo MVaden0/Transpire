@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Card.module.css';
 
-export function Card() {
+export function Card(props) {
 
   return (
     <div className={styles.card}>
@@ -11,6 +11,7 @@ export function Card() {
               this is a subtitle
             </div>
         </div>
+        {props.children}
     </div>
   );
 }
