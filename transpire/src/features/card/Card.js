@@ -6,12 +6,11 @@ export function Card(props) {
   return (
     <div className={styles.card}>
         <div className={styles.cardTitle}>
-            Title
-            <div className={styles.cardSubtitle}>
-              this is a subtitle
-            </div>
+            {props.title}
         </div>
-        {props.children}
+        <div className={styles.cardContent}>
+          {props.children}
+        </div>
     </div>
   );
 }

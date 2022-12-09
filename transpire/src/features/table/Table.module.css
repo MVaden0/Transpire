@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+}
+
+.tableHeader {
+    font-family: 'Rubik';
+    font-size: .75rem;
+    text-align: left;
+    color: var(--transpire-blue-gray);
+    height: 2rem;
+    vertical-align: top;
+}
+
+.tableRow {
+    font-family: 'Rubik';
+    text-align: left;
+    font-size: .875rem;
+    color: var(--transpire-blue-gray);
+}

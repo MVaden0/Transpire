@@ -6,8 +6,8 @@ import { Table } from './features/table/Table';
 function App() {
   return (
     <div className="App">
-      <Table>
-        
+      <Table title='This is a table' subtitle='and it has a subtitle'>
+
       </Table>
     </div>
   );

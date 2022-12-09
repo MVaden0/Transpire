@@ -6,7 +6,7 @@
 }
 
 .cardTitle {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     font-family: 'Rubik';
     color: var(--transpire-white);
     text-align: left;
@@ -14,12 +14,8 @@
     width: calc(100% - 4rem);
 }
 
-.cardSubtitle {
-    height: 1.375rem;
-    width: 100%;
-    font-size: .875rem;
-    color: var(--transpire-blue-gray);
-    text-align: left;
-    display: flex;
-    align-items: center;
+.cardContent {
+    width: calc(100% - 4rem);
+    height: calc(100% - 2rem);
+    padding: 0 2rem 2rem 2rem;
 }
